@@ -1,6 +1,6 @@
 <% content_for :fold do %>
   <div class="count">
-    <strong><%= number_with_delimiter(@count) %> gems</strong>
+    <strong><%= pluralize number_with_delimiter(@count), "gem" %></strong>
     cut since july 2009
   </div>
   <div class="blurb">
