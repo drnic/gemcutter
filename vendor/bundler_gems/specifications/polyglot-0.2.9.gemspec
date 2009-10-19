@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Clifford Heath"]
-  s.date = %q{2009-09-12}
+  s.date = %q{2009-09-13}
   s.description = %q{Allows custom language loaders for specified file extensions to be hooked into require}
   s.email = %q{cjheath@rubyforge.org}
   s.extra_rdoc_files = ["History.txt", "License.txt", "Manifest.txt", "README.txt"]
